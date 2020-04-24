@@ -14,5 +14,9 @@ public class ArithmeticOperatorExample {
 		} else {
 			System.out.println("Odd");
 		}
+		
+		int oh_yeah=3;
+		System.out.println(oh_yeah);
+		
 	}
 }
