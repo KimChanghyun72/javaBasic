@@ -12,5 +12,6 @@ public class Hello{
 		int result = personHeight + personWeight;
 		System.out.println(personHeight + " + personHeight "+ personWeight +" =>result : " + result);
 		
+		System.out.println("This is just test to use git.");
 	}
 }
