@@ -4,11 +4,9 @@ public class BitReverseOperatorExample {
 		int num1 = 10;
 		int num2 = ~num1;
 		int num3 = num2 + 1;
-		int num4 = 1000000000000000000000000;
-
+		int num4 = 10000000;
+		System.out.println(num4);
 		
-	
-
 		/*java2 conflict...*/
 
 		//java add....//
