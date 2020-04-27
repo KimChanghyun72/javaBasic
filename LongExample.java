@@ -25,8 +25,7 @@ public class LongExample {
 			System.out.println("overflow maxvalue");
 		}
 				
-				int.nax_vale =100;
-				int num6=max_value;
+			
 			
 		//System.out.println(num1);
 		//System.out.println(num2);

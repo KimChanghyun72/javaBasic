@@ -7,10 +7,11 @@ public class IntExample {
 		
 		System.out.print("num1: "+num1+"\t num2: " +num2+"\t num3: "+num3 + "\n" );
 		System.out.println("end of program");
-	}
-	if (){
-	System.out.println("Master Yondu..:);
-	} else {
+	
+		if(num1==10){
+			System.out.println("Master Yondu..:");
+		} else {
 		System.out.println("Power! Unlimited Power!!!");
+		}
 	}
 }
