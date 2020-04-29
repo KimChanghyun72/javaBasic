@@ -13,6 +13,22 @@ public class EvenSumExample {
             }
             
         }
-        //System.out.println("sum : " + sum);
+        //System.out.println("sum :  "+ sum);
+
+        for(int i=1; i<=100; i++){      //2의 배수 혹은 3의 배수 출력
+            if((i%2==0)||(i%3==0)){
+                System.out.println(i);
+            }
+        }
+        for(int i=1; i<=100; i++){      //2의 배수인 동시에 3의 배수인 숫자 출력(6의 배수)
+            if((i%2==0)&&(i%3==0)){
+                System.out.println(i);
+            }
+            if( !( i % 2 == 0)){
+                System.out.println("홀수값 : " + i);
+            }
+        }
+        
+        
     }
 }   
