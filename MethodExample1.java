@@ -2,8 +2,10 @@ import javax.sound.sampled.SourceDataLine;
 
 public class MethodExample1 {
     public static void main(String[] args) {
-        
-        printTriangle(7);
+        int example03_A = example03();
+        System.out.println("반환값 : " + example03_A);
+
+        // printTriangle(7);
         //printGugudan(8);
         //printStar(5, "qnpnqnpnqnpnp");
         //printString("Good Morning!","Kim!");
@@ -110,5 +112,20 @@ public class MethodExample1 {
         }
     }
 
+    public static int example03(){
+        int sum = 0;
+        for(int i=0; i<100; i++){
+            if(i%3==0){
+                sum += i;
+            } else{
+                continue;
+            }
+        }
+        System.out.println("1~100 3의 배수 합: " + sum);
+        return sum;
+    }
+
 
 }
+
+
